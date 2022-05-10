@@ -1,0 +1,64 @@
+.outBox{
+    height:94vh;
+    margin:20px;
+    border: 1px solid black;
+}
+.searchBox{
+    text-align: center;
+    padding:40px 0px;
+}
+.searchText{
+    border:1px solid black;
+    padding:10px 200px;
+}
+.container{
+    max-width:100% !important;
+}
+.row{
+    margin-bottom: 10%;
+}
+.col{
+    border: 1px solid black;
+    padding:10px;
+}
+.event{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.content{
+    display: flex;
+}
+.box{
+    border:1px solid black;
+    width:50%;
+    height: 132px;
+    margin-right: 8px;
+    display:flex;
+    justify-content: center;      /*horizontal*/
+    align-items: center;           /*vertical*/
+}
+.image{
+    height:90px;
+    width:90px;
+    border:1px solid black;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;      /*horizontal*/
+    align-items: center;           /*vertical*/
+}
+.context{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    margin-bottom: 10px;
+}
+.seats{
+    margin-bottom: 10px;
+}
+.button {
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+}
